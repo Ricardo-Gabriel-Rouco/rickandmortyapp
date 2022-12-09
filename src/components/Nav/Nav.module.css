@@ -1,6 +1,7 @@
 .navBar {
     display: inline;
     justify-content: center;
+    color: #4BC6E8;
 }
 
 button {
@@ -17,6 +18,8 @@ button {
 
 .menu1 a {
     position: relative;
+    color: #4BC6E8;
+    font-weight: bolder;
 }
 
 .menu1 a::before{
@@ -41,4 +44,6 @@ button {
 .menu2{
     display: flex;
     justify-content: center;
+    color: #4BC6E8;
+    font-weight: bolder;
 }

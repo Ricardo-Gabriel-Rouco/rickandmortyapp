@@ -78,6 +78,7 @@ useEffect(() => {
         <Route path='/' element={<Form login={login}/>}/>
         <Route path=':404' element={<Error/>}/>
       </Routes>
+      <Outlet/>
       </div>
     )  
   } else {

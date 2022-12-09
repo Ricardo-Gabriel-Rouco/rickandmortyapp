@@ -7,7 +7,7 @@ export default function SearchRandom(props) {
     const [character, setCharacter] = useState("")
   return (
     <div className={styles.searchBar}>
-      <button onClick={() =>onSearchRandom(character)}>Personaje Random</button> 
+      <button onClick={() =>onSearchRandom(character)}>Get Random</button> 
     </div>
   )
 }
