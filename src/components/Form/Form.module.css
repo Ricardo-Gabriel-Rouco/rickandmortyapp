@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #2596be;
+    padding: 0.25rem;
+    margin-top: 2.5rem;
+    width: 400px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.form2 {
+    margin: 20px;
+}
+label {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+input{
+    justify-items: center;
+    display: flex;
+    width: 340px;
+    height: 1em;
+    padding: 0.5em;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+button {
+    height: 30px;
+    width: 60px;
+    margin-bottom: 25px;
+}
+.danger {
+    color: #ffffff
+}
