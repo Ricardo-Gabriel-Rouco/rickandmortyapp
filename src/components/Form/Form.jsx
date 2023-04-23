@@ -18,9 +18,12 @@ export default function Form(login){
         setErrors(validation({...userData, [e.target.name]: e.target.value}))
     }
 
-    function handleSubmit(){
-        login(userData)
-    }
+    function handleSubmit(event) {
+        event.preventDefault();
+        const { username, password } = userData;
+        const data = { username, password };
+        login(data);
+      }
   return (
     <div className={styles.form}>
         <form onSubmit={handleSubmit}>
