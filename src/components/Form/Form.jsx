@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import validation from './validation'
 import styles from './Form.module.css'
 
-export default function Form(props){
+export default function Form(login){
     const [userData, setUserData] = useState({
         username: '',
         password: '',
@@ -20,6 +20,7 @@ export default function Form(props){
 
     function handleSubmit(e){
         e.preventDefault()
+        login(userData)
     }
   return (
     <div className={styles.form}>
