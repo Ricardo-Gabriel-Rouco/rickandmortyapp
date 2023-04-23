@@ -18,8 +18,7 @@ export default function Form(login){
         setErrors(validation({...userData, [e.target.name]: e.target.value}))
     }
 
-    function handleSubmit(e){
-        e.preventDefault()
+    function handleSubmit(){
         login(userData)
     }
   return (
