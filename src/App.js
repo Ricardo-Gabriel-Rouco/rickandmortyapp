@@ -19,8 +19,8 @@ function App() {
 
 function onSearch(character) {
   fetch(`https://rickandmortyapi.com/api/character/${character}`)
-     .then((response) => response.json())
-     .then((data) => {
+    .then((response) => response.json())
+    .then((data) => {
         if (data.id) {
           if(!characters.find(character => character.id === data.id)){
             setCharacters([...characters, data])
@@ -30,9 +30,9 @@ function onSearch(character) {
             window.alert('personaje repetido')
           }
         } else {
-           window.alert('No hay personajes con ese ID');
+          window.alert('No hay personajes con ese ID');
         }
-     });
+    });
 }
 
 const onSearchRandom = () => {

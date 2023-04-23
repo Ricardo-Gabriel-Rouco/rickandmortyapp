@@ -14,13 +14,12 @@ export default function Form(props){
     })
 
     function handleInputChange(e){
-        setUserData({...userData, [e.target.name]: e.target.value,})
+        setUserData({...userData, [e.target.name]: e.target.value})
         setErrors(validation({...userData, [e.target.name]: e.target.value}))
     }
 
     function handleSubmit(e){
         e.preventDefault()
-        props.login(userData)
     }
   return (
     <div className={styles.form}>

@@ -1,5 +1,4 @@
 import React from "react";
-// import { DivCard } from "../styles";
 import { Link } from "react-router-dom";
 import { addFavorite, deleteFavorite } from "../../redux/actions";
 import { connect } from "react-redux";

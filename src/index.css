@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('../build/static/media/prueba2.72027a7596ed9d3530c4.jpg');
+  background-image: url('./Assets/prueba2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
